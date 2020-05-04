@@ -37,4 +37,4 @@ phases:
       - pwd
       - ls
 artifacts:
-  files: ./build.json
+  files: build.json
