@@ -9,7 +9,13 @@ Parameters:
   EksClusterName:
     Type: String
     Description: The name of the EKS cluster created
+<<<<<<< HEAD
     Default: eksctl-simple-jwt-api-cluster
+||||||| merged common ancestors
+    Default: 
+=======
+    Default: simple-jwt-api
+>>>>>>> e67fd976f697cbc5ce50dd7a26d07e8abe9dd9d7
     MinLength: 1
     MaxLength: 100
     ConstraintDescription: You must enter the EKS cluster name
