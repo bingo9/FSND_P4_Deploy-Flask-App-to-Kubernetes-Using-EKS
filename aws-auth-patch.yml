@@ -11,15 +11,12 @@ data:
       groups:
       - system:masters
   mapUsers: |
-    - userarn: arn:aws:iam::565206455175:user/janstett
-      username: janstett
-      groups:
-        - system:masters
+    []
 kind: ConfigMap
 metadata:
   creationTimestamp: "2020-05-04T22:37:53Z"
   name: aws-auth
   namespace: kube-system
-  resourceVersion: "18104"
+  resourceVersion: "18471"
   selfLink: /api/v1/namespaces/kube-system/configmaps/aws-auth
   uid: 90ab4c4b-8efe-4d1c-b64f-84d2916769fa
